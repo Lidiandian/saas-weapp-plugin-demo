@@ -1,0 +1,8 @@
+@import '/assets/styles/weui.wxss';
+
+.logo {
+  display: block;
+  margin: 40px auto;
+  width: 92px;
+  height: 92px;
+}

@@ -1,0 +1,4 @@
+@import '/assets/styles/weui.wxss';
+page{
+    background-color: #FFFFFF;
+}

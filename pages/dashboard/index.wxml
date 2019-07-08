@@ -1,0 +1,36 @@
+<view class="container">
+    <image class="logo" src="http://t-saasbu.51jfg.com/saas/image/login_icon.png" />
+    <view class="weui-cells weui-cells_after-title">
+        <navigator url="./usePagePlugin/index" class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">页面插件-首页入口</view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <!-- <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">卡片插件-最新商品</view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view> -->
+        <navigator url="./outputApi/index" class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">外部调用接口</view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="./usePluginCard/index" class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">商品组件</view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <!-- <navigator url="../test/index" class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">内部测试</view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator> -->
+    </view>
+</view>

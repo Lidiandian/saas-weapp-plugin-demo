@@ -1,0 +1,35 @@
+<view class="page">
+    <view class="page__hd weui-btn-area">
+        <view class="page__title">outputApi</view>
+        <view class="page__desc">从小程序调用插件接口</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button type="default" bindtap="usePluginInfo">获取插件基本信息</button>
+        </view>
+    </view>
+    <view class="page__hd weui-btn-area">
+    	<view class="page__title">插件基本信息：</view>
+        <view class="page__desc">
+        	<rich-text type="text" nodes="{{ pluginInfo }}"></rich-text>
+        </view>
+    </view>
+
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button type="default" bindtap="getPluginscore">获取积分</button>
+        </view>
+    </view>
+
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button type="default" bindtap="addPluginscore">加积分</button>
+        </view>
+    </view>
+
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button type="default" bindtap="reducePluginscore">减积分</button>
+        </view>
+    </view>
+</view>

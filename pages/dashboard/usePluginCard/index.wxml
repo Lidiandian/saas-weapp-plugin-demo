@@ -1,0 +1,27 @@
+<view class="page">
+    <!-- <view class="page__hd weui-btn-area">
+        <view class="page__title">我是小程序商户，下面是我在好券创立的商品使用的是好券插件。大家快来购买吧</view>
+    </view> -->
+    <view class="page__hd weui-btn-area">
+        <view class="page__title">usePluginCard</view>
+        <view class="page__desc">商品组件</view>
+    </view>
+
+    <view class="page__hd weui-btn-area">
+    	<view class="page__title">代码演示：</view>
+        <view class="demo-item__code" slot="code">
+        	<rich-text type="text" nodes="{{ pluginInfo }}"></rich-text>
+        </view>
+    </view>
+
+    <view class="page__bd">
+        <goods
+            appid="{{saasPluginParams.appid}}"
+            phone="{{saasPluginParams.phone}}"
+            bind:goodsEvent="goOrderConfirm"
+        />
+    </view>
+
+    
+</view>
+

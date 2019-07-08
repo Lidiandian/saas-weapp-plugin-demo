@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/dashboard/index",
+    "pages/dashboard/usePagePlugin/index",
+    "pages/dashboard/outputApi/index",
+    "pages/dashboard/usePluginCard/index"
+  ],
+  "plugins": {
+    "myPlugin": {
+      "version": "1.0.6",
+      "provider": "wx3da652f5c8b7700c"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "functionalPages": {
+    "independent": true
+  }
+}
