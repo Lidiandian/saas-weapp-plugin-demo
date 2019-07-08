@@ -1,8 +1,9 @@
 ## weapp-plugin-demo
 
-有赞微商城所有小程序插件的演示demo
+好券儿商城所有小程序插件的演示demo
 
-![Demo 演示](http://developers.wmain.cn/uploads/article/6a223b15-02c4-4a7d-a36a-2c50b39b168f.png)
+
+![Demo演示](http://developers.wmain.cn/uploads/article/6a223b15-02c4-4a7d-a36a-2c50b39b168f.png)
 
 ## 如何在本地预览demo
 
